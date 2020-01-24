@@ -1,6 +1,6 @@
 # Omega Library functions
 
-[Omega-Lib](https://github.com/IMAT-Solutions/omega-lib) is a set of library functions used by both the [Omega](https://github.com/IMAT-Solutions/omega) and [Omega-Tools](https://github.com/IMAT-Solutions/omega-tools) repos.
+[Omega-Lib](https://github.com/Sommus-Project/omega-lib) is a set of library functions used by both the [Omega](https://github.com/Sommus-Project/omega) and [Omega-Tools](https://github.com/Sommus-Project/omega-tools) repos.
 
 We will try to keep Omega-Lib compatible with both the [current release](https://nodejs.org/en/download/current/) and the [Active LTS release of Node.js](https://nodejs.org/en/download/).
 
@@ -13,7 +13,7 @@ We will try to keep Omega-Lib compatible with both the [current release](https:/
 If you want to dig into the code for omega-lib then you can clone the Omega-Lib repo:
 
 ```
-git clone https://github.com/IMAT-Solutions/omega-lib.git omegalib
+git clone https://github.com/Sommus-Project/omega-lib.git omegalib
 ```
 
 ### Install Omega-Lib
@@ -21,7 +21,7 @@ git clone https://github.com/IMAT-Solutions/omega-lib.git omegalib
 If you want to use Omega-Lib in your project then add it to your `package.json` by running the following command:
 
 ```
-npm install --save git+https://github.com/IMAT-Solutions/omega.git
+npm install --save git+https://github.com/Sommus-Project/omega.git
 ```
 
 ### Library Functions
@@ -29,7 +29,7 @@ npm install --save git+https://github.com/IMAT-Solutions/omega.git
 Omega-Lib exposes several functions that can be used in your Node.js code. In your source file you would include Omega-lib by using `require`:
 
 ```js
-const omegalib = require('@imat/omegalib');
+const omegalib = require('@sp/omega-lib');
 ```
 
 Then you use one of the exported functions like this:
