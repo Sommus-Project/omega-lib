@@ -1,5 +1,5 @@
 {
-  "name": "@imat/omegalib",
+  "name": "@sp/omegalib",
   "version": "2.0.5",
   "description": "Common Libraries used by the omega and omega-tools repos",
   "main": "index.js",
