@@ -1,6 +1,6 @@
 {
   "name": "@sp/omega-lib",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Common Libraries used by the omega and omega-tools repos",
   "main": "index.js",
   "scripts": {
